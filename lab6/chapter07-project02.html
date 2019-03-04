@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter 7</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="bootstrap-3.0.0/dist/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="chapter07-project02.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="../../assets/js/html5shiv.js"></script>
+      <script src="../../assets/js/respond.min.js"></script>
+    <![endif]-->
+    
+
+
+   
+    
+  </head>
+
+  <body>
+
+<header>
+
+   <div id="topHeaderRow" >
+      <div class="container">
+         <nav class="navbar navbar-inverse " role="navigation">
+            <div class="navbar-header">
+               <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+               </button>
+               <p class="navbar-text">Welcome to <strong>Art Store</strong>, <a href="#" class="navbar-link">Login</a> or <a href="#" class="navbar-link">Create new account</a></p>
+            </div>
+
+            <div class="collapse navbar-collapse navbar-ex1-collapse pull-right">
+               <ul class="nav navbar-nav">
+                  <li><a href="#"><span class="glyphicon glyphicon-user"></span> My Account</a></li>
+                  <li><a href="#"><span class="glyphicon glyphicon-gift"></span> Wish List</a></li>
+                  <li><a href="#"><span class="glyphicon glyphicon-shopping-cart"></span> Shopping Cart</a></li>
+                  <li><a href="#"><span class="glyphicon glyphicon-arrow-right"></span> Checkout</a></li>                  
+               </ul>
+            </div>
+         </nav>
+      </div>
+   </div>   
+   
+   <div id="logoRow" >
+      <div class="container">
+         <div class="row">
+            <div class="col-md-8">
+                <h1>Art Store</h1> 
+            </div>
+            
+
+            <div class="col-md-4">
+               <form class="form-inline" role="search">
+               <div class="input-group">
+                  <label class="sr-only" for="search">Search</label>
+                  <input type="text" class="form-control" placeholder="Search" name="search">
+                  <span class="input-group-btn">
+                  <button class="btn btn-default" type="submit"><span class="glyphicon glyphicon-search"></span></button>
+                  </span>
+               </div>
+               </form> 
+            </div>
+
+                        
+         </div>
+     
+      
+      </div>
+   </div>
+   
+   <div id="mainNavigationRow" >
+      <div class="container">
+
+         <nav class="navbar navbar-default" role="navigation">
+            <div class="navbar-header">
+               <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+               </button>
+            </div>
+
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+             <ul class="nav navbar-nav">
+               <li class="active"><a href="#">Home</a></li>
+               <li><a href="#">About Us</a></li>
+               <li><a href="#">Art Works</a></li>
+               <li><a href="#">Artists</a></li>
+               <li class="dropdown">
+                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Specials <b class="caret"></b></a>
+                 <ul class="dropdown-menu">
+                   <li><a href="#">Special 1</a></li>
+                   <li><a href="#">Special 2</a></li>                   
+                 </ul>
+               </li>
+             </ul>              
+            </div>
+         </nav>
+      </div>  <!-- end container -->
+   </div>  <!-- end mainNavigationRow -->
+   
+</header>
+
+<div class="container">
+   <div class="row">
+
+      <div class="col-md-9">
+         <h2>Video How Tos</h2>
+         <p>Sample video</p>
+
+
+<div class="jumbotron">
+  <div class="container">
+
+   <video id="videoPlayer" width="600" height="400" controls poster="./images/art/preview.png" >
+      <source src="./images/art/sample.mp4" type="video/mp4">
+      Your browser does not support HTML5 video.
+    </video>
+
+    <div class="btn-group btn-group-lg">
+      <button type="button" class="btn btndefault" id="rewind" onclick="restart();"><span
+      class="glyphicon glyphicon-fast-backward"></span></button>
+      <button type="button" class="btn btndefault" id="backward" onclick="skip(-10)"><span
+      class="glyphicon glyphicon-backward"></span></button>
+      <button type="button" class="btn btndefault" id="play" onclick="playVideo()"><span 
+         class="glyphicon glyphicon-play"></span></button>
+      <button type="button" class="btn btndefault" id="forward" onclick="skip(10)"><span
+      class="glyphicon glyphicon-forward"></span></button>
+      </div>
+  </div>
+</div>         
+         
+         
+
+      </div>  <!-- end col-md-10 (main content) -->
+      
+      <div class="col-md-3">
+    
+      
+         <div class="panel panel-info">
+            <div class="panel-heading">
+               <h3 class="panel-title">Other Videos</h3>
+            </div>
+            <div class="panel-body">
+               <ul class="nav nav-pills nav-stacked">
+                  <li><a href="#">Working with the cart</a></li>
+                  <li><a href="#">Registering an account</a></li>
+                  <li><a href="#">Checking out</a></li>
+                  <li><a href="#">Using the search</a></li>
+                  <li><a href="#">Checking your order</a></li>
+                  <li><a href="#">Returning your order</a></li>
+               </ul>
+            </div>
+         </div>  
+
+         <div class="panel panel-danger">
+            <div class="panel-heading">
+               <h3 class="panel-title">Problems Playing Videos?</h3>
+            </div>
+            <div class="panel-body">
+               <ul class="nav nav-pills nav-stacked">
+                  <li><a href="#">Download more recent browser</a></li>
+                  <li><a href="#">Install Flash</a></li>
+               </ul>
+            </div>
+         </div> 
+      
+      </div> <!-- end col-md-2 (right navigation) -->           
+   </div>  <!-- end main row --> 
+</div>  <!-- end container -->
+
+
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="bootstrap-3.0.0/assets/js/jquery.js"></script>
+    <script src="bootstrap-3.0.0/dist/js/bootstrap.min.js"></script>    
+
+    <script type="text/javascript">
+
+      var video = document.getElementById("videoPlayer");
+      var rewind = document.getElementById("rewind");
+      var backward = document.getElementById("backward");
+      var play = document.getElementById("play");
+      var forward = document.getElementById("forward");
+      var videoPlaying = false;
+
+      function playVideo()
+      {
+   
+     
+
+      if (videoPlaying == false){
+         video.play();
+         videoPlaying = true
+         // console.log(videoPlaying)
+      }
+      else if (videoPlaying == true){
+         video.pause()
+         videoPlaying = false
+      }
+      }
+
+
+
+
+
+      function restart()
+      {
+         video.currentTime = 0;
+      }
+
+      function skip(value)
+      {
+      video.currentTime = video.currentTime + value
+      console.log(video.currentTime)
+      }
+
+
+      </script>
+  </body>
+</html>

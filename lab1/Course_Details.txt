@@ -1,0 +1,14 @@
+Instructor: Dr Khurram Shehzad
+Office Location: SE09-100
+Office Hours: By appointment
+
+Textbook: Fundamentals of Web Development - 1st Edition - by Randy Connolly and Ricardo Hoar
+
+Purchase at:
+
+https://www.amazon.ca/Fundamentals-Web-Development-Randy-Connolly/dp/0133407152
+
+OR
+
+https://www.vitalsource.com/en-ca/products/fundamentals-of-web-development-randy-connolly-v9780133857290?duration=180&gclid=Cj0KCQiApbzhBRDKARIsAIvZue-_KeXx6sukxy3QiUqPfdljKGw_vRXxRk2c2rKFkM-AbxtRz_hEtTkaApThEALw_wcB
+

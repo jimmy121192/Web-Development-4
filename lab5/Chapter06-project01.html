@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+   <meta charset="utf-8">
+   <title>Chapter 6</title>
+
+   <link rel="stylesheet" href="chapter06-project01.css" />
+</head>
+<body>
+<form method="get" action="" id="mainForm" onsubmit="return mySubmitFunction(event)">
+   <fieldset>
+      <legend>Photo Details</legend>
+      <table>
+         <tr>
+            <td colspan="2">
+               <p>
+               <label>Title</label><br/>
+               <input type="text" name="title" size="80" class="required" id="title" onfocus="clearBG1()" />
+               </p>
+               <p>
+               <label>Description</label><br/>
+               <textarea name="description" rows="5" cols="60" id="description" class="required" onfocus="clearBG2()"></textarea>
+               </p>            
+            </td>
+         </tr>
+         <tr>
+            <td> 
+               <p> 
+               <label>Continent</label><br/>
+               <select name="continent" id="continent">
+                  <option value="">Choose continent</option> 
+                  <option>Africa</option>
+                  <option>Asia</option>
+                  <option>Europe</option>
+                  <option>North America</option>
+                  <option>South America</option>
+               </select>
+               </p>
+               <p> 
+               <label>Country</label><br/>
+               <select name="country" id="country">
+                  <option value="">Choose country</option> 
+                  <option>Canada</option>
+                  <option>Mexico</option>
+                  <option>United States</option>
+               </select>
+               </p>
+               <p>	
+               <label>City</label><br/>               
+               <input type="text" name="city" list="cities" size="40" id="city"/>
+               <datalist id="cities">
+                  <option>Calgary</option>                
+                  <option>Montreal</option>
+                  <option>Toronto</option>                  
+                  <option>Vancouver</option>
+               </datalist>
+               </p>
+            </td>
+            <td>
+               <div class="box">
+                  <label>Copyright? </label><br/>
+                  <input type="radio" name="copyright" value="1">All rights reserved<br/>
+                  <input type="radio" name="copyright" value="2" checked>Creative Commons<br/>
+               </div>
+               <div class="box" id="box2">
+                  <label>Creative Commons Types </label><br/>
+                  <input type="checkbox" name="cc" id="checkbox1" >Attribution <br/>
+                  <input type="checkbox" name="cc" id="checkbox2" >Noncommercial <br/>    
+                  <input type="checkbox" name="cc" id="checkbox3" >No Derivative Works <br/>  
+                  <input type="checkbox" name="cc" id="checkbox4" >Share Alike
+               </div>               
+            </td>
+         </tr>
+         <tr>
+            <td colspan="2" >
+            <div class="rectangle" id="box3"> 
+               <label>I accept the software license</label>
+               <input type="checkbox" name="accept" id="accept" class="required" onchange="clearBG3()">
+            </div>
+            </td>
+         </tr>
+         <tr>
+            <td>
+                  <p>
+                  <label>Rate this photo: <br/>
+                  <input type="number" min="1" max="5" name="rate"  id="rate"/>  
+                  </p>                  
+                  <p>
+                  <label>Color Collection: <br/>
+                  <input type="color"  name="color" id="color" />   
+                  </p>                  
+            </td>
+            <td>
+               <div class="box">
+                  <p>
+                  <label>Date Taken: <br/>
+                  <input type="date"  name="date" id="date"/>   
+                  </p>
+                  <p>
+                  <label>Time Taken: <br/>
+                  <input type="time"  name="time" id="time"/>   
+                  </p>                  
+               </div>
+            </td>
+         </tr>
+         <tr>
+            <td colspan="2">
+               <div class="rectangle centered"> 
+                  <input type="submit" class="rounded" > <input type="reset" value="Clear Form" class="rounded">      
+               </div>
+            </td>
+         </tr>
+      </table>
+   </fieldset>
+</form>
+
+<script src="./js/project01.js"></script>
+</body>
+</html>

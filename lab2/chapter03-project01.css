@@ -1,0 +1,119 @@
+body{
+    background-color: #213643;
+}
+article{
+    background-color: white;
+    margin: 0em 4em 0.5em 4em;
+    padding: 10px;
+}
+section{
+    font-family:Georgia, Cambria, "Times New Roman", serif
+}
+
+header, footer {
+    color: white;
+    background-color: #3D6271;
+    margin: 0em 4em 0.5em 4em;
+    
+    }
+
+footer p{
+    padding: 10px;
+    color: white !important;
+    font-style: initial !important;
+} 
+footer a {
+    
+    color: #47B3D7;
+    font-family: "Lucida Grande";
+    font-weight: bold;
+    font-style: initial;
+} 
+
+header > h1, h2{
+
+    font-family: "Lucida Grande"
+}
+
+h1{ 
+    padding-top: 10px;
+    
+    padding-left: 10px;
+    font-size: 1.5rem;
+
+}
+
+h2{ 
+    padding-top: 5px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    font-size: 0.75rem;
+
+}
+
+h3{
+    border-bottom: 1pt solid #999999;
+}
+
+nav {
+    padding: 0.5em;
+    background-color: #728B96;
+    
+}
+
+nav li{
+    display: inline-block;
+    margin: 0.5em;
+  
+
+}
+
+li a{
+    color: #47B3D7;
+    font-family: "Lucida Grande";
+    font-weight: bold;
+}
+
+  p:first-of-type , figcaption { 
+    font-style: italic;
+    color: #999999;
+    margin-bottom: 0.5em;
+    margin-top: 0.5em;
+  }
+  section a:first-child{
+      color: #BB78FF;
+      font-weight: bold;
+  }
+
+  section a:nth-child(2){
+    color: #47B3D7;
+    font-weight: bold;
+}
+
+#share{
+    display: inline;
+    padding: 0.5em;
+    width: 485px;
+    height: 14px;
+    background-image: url('./images/gray-gradient.gif');
+    /* border-bottom: 1pt solid #999999; */
+    border-radius: 4px;
+    background-position: -120px 0px;
+    background-repeat: repeat-x;
+    
+    
+}
+
+footer{
+    list-style: none;
+}
+
+figure img{
+    border: 1px solid  #999999;
+    padding: 0.25em;
+}
+
+#related, #reviews{
+    margin-bottom: 0.5em;
+    margin-top: 1em;
+}

@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Assignment 1 - Page 2</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link href="bootstrap-3.0.0/dist/css/bootstrap.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/pageTwo.css">
+</head>
+
+<body>
+	<header>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-lg-12" id="topNavBar">
+
+					<div class="collapse navbar-collapse navbar-ex1-collapse pull-right">
+						<ul class="nav navbar-nav">
+							<li><a href="#"><span class="glyphicon glyphicon-user"></span> My Account</a></li>
+							<li><a href="#"><span class="glyphicon glyphicon-gift"></span> Wish List</a></li>
+							<li><a href="#"><span class="glyphicon glyphicon-shopping-cart"></span> Shopping Cart</a></li>
+							<li><a href="#"><span class="glyphicon glyphicon-arrow-right"></span> Checkout</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<div class="container-fluid">
+			<div class="row" id="logoRow">
+				<div class="col-lg-8">
+					<h1 style="margin-left: 19px">Art Store</h1>
+				</div>
+				<div class="col-lg-4">
+
+				</div>
+			</div>
+		</div>
+
+		<div class="container-fluid">
+			<div class="row" id="mainNavigationRow">
+				<div class="collapse navbar-collapse navbar-ex1-collapse">
+					<ul class="nav navbar-nav" style="margin-left: 19px">
+						<li class="active"><a href="#">Home</a></li>
+						<li><a href="#">About Us</a></li>
+						<li><a href="#">Art Works</a></li>
+						<li><a href="#">Artists</a></li>
+
+					</ul>
+				</div>
+			</div>
+
+		</div>
+	</header>
+
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-lg-12">
+				<main>
+
+					<form method="GET" action="./process.php">
+						<h2>Customer Registration</h2>
+						<fieldset>
+							<h3>1. User Info</h3>
+							<hr>
+							<div class="row">
+								<div class="col-lg-12">
+									<table class="userform">
+										<div class="boxes">
+											<div style="margin-right: 30px">
+												<label><strong>First Name</strong></label><br>
+												<input type="text" name="first" class="input">
+											</div>
+											<div>
+												<label><strong>Last Name</strong></label><br>
+												<input type="text" name="last" class="input">
+											</div><br>
+										</div>
+										<div class="row" style="margin-top:15px;">
+											<div class="col-lg-6">
+
+												<label><strong>Email</strong></label><br>
+												<input type="text" name="email" class="email" placeholder="format for  email is xxx@yyy.zzz">
+											</div>
+
+											<div class="col-lg-6"></div>
+										</div>
+										<div class="boxes" style="margin-top:15px;">
+											<div style="margin-right: 30px">
+												<label><strong>Password</strong></label><br>
+												<input type="password" name="pass1" class="input" placeholder="at least 8 characters">
+											</div>
+											<div>
+												<label><strong>Password Repeat</strong></label><br>
+												<input type="password" name="pass2" class="input" placeholder="at least 8 characters">
+											</div><br>
+										</div>
+
+									</table>
+								</div>
+
+							</div>
+
+
+
+							<h3>2. Location</h3>
+							<hr>
+
+							<table class="userform">
+								<div class="row" style="margin-top:15px;">
+									<div class="col-lg-6">
+
+										<label><strong>Address</strong></label><br>
+										<input type="text" name="address" class="email">
+									</div>
+
+									<div class="col-lg-6"></div>
+								</div>
+
+								<div class="boxes" style="margin-top:15px;">
+									<div style="margin-right: 30px">
+										<label><strong>City</strong></label><br>
+										<input type="text" name="city" class="input">
+									</div>
+									<div style="margin-right: 20px">
+										<label><strong>State</strong></label><br>
+										<input type="text" name="state" class="state">
+									</div><br>
+									<div>
+										<label><strong>Zip</strong></label><br>
+										<input type="text" name="zip" class="state">
+									</div><br>
+									
+								</div>
+								<div class="boxes" style="margin-top:15px;">
+									<div style="margin-right: 30px">
+										<label><strong>Phone</strong></label><br>
+										<input type="number" name="phone" class="input" placeholder="NNN-NNN-NNNN">
+									</div>
+									<div>
+										<label><strong>Country</strong></label><br>
+										<select class="form-control" name="city" class="dropdown_item_select checkout_input" require="required">
+											<option value="Canada">Canada</option>
+											<option value="United States">United States</option>
+											<option value="France">France</option>
+											<option value="England">England</option>
+										  </select>
+									</div><br>
+								</div>
+
+								<div class="boxes" style="margin-top:15px;">
+									<div style="margin-right: 20px">
+										<label><strong>Continent</strong></label><br>
+										<input type="radio" name="continent" value="1"> North America<br>
+										<input type="radio" name="continent" value="2"> Europe<br>
+										<input type="radio" name="continent" value="3"> South America<br>
+									</div><br>
+								</div>
+
+
+							</table>
+
+							<h3>3. Personal Details</h3>
+							<hr>
+							<div class="row">
+									<div class="col-lg-12">
+										<table class="userform">
+												<div class="boxes" >
+														<div style="margin-right: 30px">
+															<label><strong>Birth Day</strong></label><br>
+															<input type="text" placeholder="yyyy-mm-dd" name="birthday">
+														</div>
+														<div>
+															<label><strong>Favourite Color</strong></label><br>
+															<input type="color" name="favorite">
+														</div><br>
+													</div>
+
+													<div class="row" style="margin-top:15px;">
+															<div class="col-lg-6">
+				
+																<label><strong>Interest In Art</strong></label><br>
+																Minimal <input type="range" min="0" max="100" width="100%" name="interest"> Love it!
+															</div>
+				
+															<div class="col-lg-6"></div>
+														</div>
+
+										</table>
+									</div>
+							</div>
+
+
+
+							<h3>4. All Done</h3>
+							<hr>
+							<div class="row">
+								<div class="col-lg-12">
+									<table class="userform">
+										<input type="checkbox" value="on" name="accept"> I agree to the <a href="">Terms of the Site</a><br><br>
+										<button type="submit" class="btn btn-default"><img src="./images/art/button_ok.png"> Sign me up!</button>
+									</table>
+								</div>
+						</div>
+						</fieldset>
+					</form>
+
+				</main>
+
+			</div>
+		</div>
+
+	</div>
+
+
+	<div class="container-fluid">
+
+		<div class="row" id="copyrightRow">
+			<p class="text-muted">All images are copyright to their owners. This is just a hypothetical site<span class="pull-right">@2014
+					Copyright Art Store</span></p>
+		</div>
+	</div>
+
+
+
+
+
+
+	<script src="bootstrap-3.0.0/assets/js/jquery.js"></script>
+	<script src="bootstrap-3.0.0/dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>

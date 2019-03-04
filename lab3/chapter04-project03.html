@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+   <meta charset="utf-8">
+   <title>Chapter 4</title>
+   <link rel="stylesheet" href="reset.css" />
+   <link rel="stylesheet" href="./chapter04-project03.css" />
+</head>
+<body>
+<form method="get" action="http://www.randyconnolly.com/tests/process.php">
+   <fieldset>
+      <legend>Photo Details</legend>
+      <table>
+         <p>
+         <label>Title</label><br>
+         <input type="text" id="title">
+         </p>
+         <p>
+         <label>Description</label> <br>
+         <textarea rows="6" id="description">
+
+         </textarea>
+         </p>
+         <div class="flex-box">
+            <div class="flex-items">
+               <p>
+                     <label>Continent</label>  <br> 
+                     <select>
+                        <option selected value="North America">North America</option>
+                        <option value="Africa">Africa</option>
+                        <option value="Europe">Europe</option>
+                        <option value="Asia">Asia</option>
+                        <option value="South America">South America</option>
+                     </select>
+                     </p>
+                     <p>
+                     <label>Country</label><br>
+                     <select>
+                           <option selected value="America">USA</option>
+                           <option value="Canada">Canada</option>
+                           <option value="England">England</option>
+                           <option value="Vietnam">Vietnam</option>
+                           <option value="Brazil">Brazil</option>
+                           <option value="Other">Other</option>
+                        </select>
+                     </p>
+                     <p>
+                           <label>City</label><br>
+                           <input type="text" id="city">
+                           </p>
+
+            </div>
+               <div class="flex-items">
+                  <div class="boxes">
+                        <label>Copyright?</label><br>
+                        <input type="radio" name="copyright" value="All rights reserved" checked> All rights reserved<br>
+                        <input type="radio" name="copyright" value="Creative Common"> Creative Common
+                  </div>
+                  <div class="boxes">
+                        <label>Creative Commons Types</label><br>
+                        <input type="checkbox" name="type" value="Attribution" checked> Attribution<br>
+                        <input type="checkbox" name="type" value="Nocommercial"> Nocommercial<br>
+                        <input type="checkbox" name="type" value="No Derivative Works"> No Derivative Works<br>
+                        <input type="checkbox" name="type" value="Share Alike"> Share Alike<br>
+                        </p>
+                  </div>
+               </div>
+         </div>
+
+         <div class="rectangle centered" style="text-align: left">
+               <label>I accept the software license</label>
+               <input type="checkbox" name="accept" value="yes">
+         </div>
+
+         <div class="flex-box">
+               <div class="flex-items">
+                       <p>
+                        <label>Rate this photo:</label>  <br> 
+                        <input type="number" name="rating" min="1" max="5">
+                        </p>
+                        <p>
+                        <label>Color Correction:</label><br>
+                        <input type="color" id="head" name="head" value="#e66465">
+ 
+                        </p>
+   
+   
+               </div>
+                  <div class="flex-items">
+                        <div class="boxes">
+                        <p>
+                              <label>Date Taken:</label>  <br> 
+                              <input type="date" id="start" name="trip-start"
+                                 value="2018-07-22"
+                                 min="2018-01-01" max="2018-12-31">
+                              </p>
+                              <p>
+                              <label>Time Taken:</label><br>
+                              <input type="time" name="appt" value="10:00"
+                              min="0:00" max="24:00" required>
+       
+                              </p>
+                           </div>
+     
+                  </div>
+            </div>
+
+            <div class="rectangle centered">
+                  <input type="submit" class="rounded"> <input type="reset" value="Clear Form" class="rounded">
+                </div>
+
+
+      </table>
+
+
+
+   </fieldset>
+
+
+</form>
+
+
+
+</body>
+</html>

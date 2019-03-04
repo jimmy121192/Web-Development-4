@@ -1,0 +1,75 @@
+body{
+ overflow-x: hidden;   
+}
+
+
+#topNavBar {
+    width: 100%;
+    height: 50px;
+    background-color: #3A3A3A;
+    color: white;
+}
+#topNavBar a{
+    text-decoration: none;
+    color: white
+}
+#topNavBar li a:hover{
+    color: black
+}
+
+#logoRow{
+    height: 80px;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;   
+}
+#logoRow h1{
+    /* border: 1px solid green; */
+    margin: auto
+}
+
+#mainNavigationRow{
+    background-color: rgb(238, 237, 237);
+}
+.active{
+    background-color: rgb(221, 220, 220);
+}
+#mainNavigationRow a{
+    text-decoration: none;
+    color: black
+}
+.price{
+    font-size: 36pt;
+    color: red;
+}
+.panel{
+    margin-top: 2em;
+}
+.flex-boxes{
+    
+    text-align: center
+
+}
+
+.boxes{
+   
+    /* width: 300px; */
+    height: 250px;
+}
+
+footer{
+    height: 300px;
+    padding: 1em;
+    margin-top: 20px;
+    background-color: #E7E7E7;
+}
+#copyrightRow{
+    margin-top: 17px;
+    height: 50px;
+    background-color: #3A3A3A;
+    
+    padding: 1em
+}
+#copyrightRow p{
+    color: white;
+}

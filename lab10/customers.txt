@@ -1,0 +1,12 @@
+2,Leonie,Köhler,leonekohler@surfeu.de,University of Stuttgart,Theodor-Heuss-Straße 34,Stuttgart,,Germany,70174,+49 0711 2842222
+3,Bjørn,Hansen,bjorn.hansen@yahoo.no,University of Oslo,Ullevålsveien 14,Oslo,,Norway,0171,+47 22 44 22 22
+4,François,Tremblay,ftremblay@gmail.com,McGill University,1498 rue Bélanger,Montréal,QC,Canada,H2G 1A7,+1 (514) 721-4711
+5,František,Wichterlová,frantisekw@jetbrains.com,Charles University,Klanova 9/506,Prague,,Czech Republic,14700,+420 2 4172 5555
+6,Astrid,Gruber,astrid.gruber@apple.at,Vienna University of Technology,Rotenturmstraße 4, Vienna,,Austria,1010,+43 01 5134505
+7,Helena,Holý,hholy@gmail.com,Charles University,Rilská 3174/6,Prague,,Czech Republic,14300,+420 2 4177 0449
+16,Aaron,Mitchell,aaronmitchell@yahoo.ca,University of Manitoba,696 Osborne Street,Winnipeg,MB,Canada,R3L 2B9,+1 (204) 452-6452
+17,Ellie,Sullivan,ellie.sullivan@shaw.ca,Aurora College,5112 48 Street,Yellowknife,NT,Canada,X1A 1N6,+1 (867) 920-2233
+18,João,Fernandes,jfernandes@yahoo.pt,University of Lisbon,Rua da Assunção 53,Lisbon,,Portugal,,+351 (213) 466-111
+19,Madalena,Sampaio,masampaio@sapo.pt,University of Porto,4350 Rua dos Campeões Europeus de Viena, Porto,,Portugal,,+351 (225) 022-448
+22,Isabelle,Mercier,isabelle_mercier@apple.fr,University of Burgundy,68 Rue Jouvence,Dijon,,France,21000,+33 03 80 73 66 99
+23,Emma,Jones,emma_jones@hotmail.com,King's College,202 Hoxton Street,London,,United Kingdom,N1 5LH,+44 020 7707 0707
