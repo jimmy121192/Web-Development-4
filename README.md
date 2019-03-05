@@ -12,4 +12,4 @@
 - Lab 21, 22: Web Server Administration, XML Processing and Web Services
 - Lab 23, 24: Search Engines, Social Network Integration
 
-For my friends, who are struggling with Web Dev 4. My works are not 100% correct.
+My works are not 100% correct.
